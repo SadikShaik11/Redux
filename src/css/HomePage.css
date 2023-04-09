@@ -1,0 +1,70 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.medicine-container{
+  background-color: rgba(213, 254, 253, 0.5);
+  background-image: linear-gradient(315deg, rgba(213, 254, 253, 0.5) 0%, rgba(255, 252, 255, 0.5) 74%);
+        margin-left: "330px";
+        border: 1px , solid, black;
+      }
+.root-container{
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+      }
+      .slick-slider button.slick-arrow {
+        background-color: #f9ea8f;
+        background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+        border-radius: 50%;
+        color: blue;
+        height: 33px;
+        width: 30px;
+      }
+      
+      .slick-slider button.slick-arrow:hover {
+        background-color: #fff;
+        color: #000;
+      }
+      
+ .header {
+  position: relative;
+  z-index: 1;
+}
+
+.Categories {
+  position: absolute;
+  z-index: 0;
+  background-color: #f9fcff;
+background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+}
+/* .slick-prev,
+.slick-next {
+  color: orange !important;
+} */
+/* .slick-slide {
+  border: 1px solid black !important;
+} */
+
+.menuitem-navbar button.MuiButton-root {
+  color: blue;
+  background: none;
+  font-size: large;
+}
+.menuitem-navbar button.MuiButton-root:hover {
+  color: orange !important; background: none;
+}
+
+.menuitem-navbar button.MuiButton-root:active {
+  color: darkblue !important; background: none;
+}
+
+Typography{
+  align-items: left;
+  font-family: 'Roboto', sans-serif;
+} 
+
+
+/* Footer code  */

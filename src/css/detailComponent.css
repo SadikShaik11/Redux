@@ -1,0 +1,196 @@
+/* Card container */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,500;0,700;1,100&display=swap');
+
+.MuiCard-root {
+    
+    width: 800px;
+    max-height: 800px;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin: auto;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-items: center;
+}
+
+/* Product image */
+.MuiCardMedia-root {
+    height: 400px;
+    object-fit: contain;
+}
+
+/* Product name */
+.MuiCardContent-root .MuiTypography-h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    text-transform: capitalize;
+    
+    color: #000000;
+    margin-bottom: 1rem;
+
+}
+/** review **/
+
+.product-review{
+ position: absolute;
+width: 265px;
+height: 52px;
+left: 666px;
+top: 221px;
+
+}
+.price-container{
+width: 109px;
+height: 29px;
+margin: 5px;
+
+}
+.price{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #000000;
+
+}
+
+/* Product description */
+.MuiCardContent-root .MuiTypography-body2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+/* Add to cart and Buy now buttons */
+.MuiCardContent-root .MuiButton-root {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+text-align: center;
+    width: 150px;
+    margin-right: 1rem;
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 25px;
+}
+
+.MuiCardContent-root .MuiButton-root:hover {
+    background-color: green;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+.page-container{
+    margin: 40px;
+    min-height: 100%;
+}
+
+
+/* 
+
+pincode component 
+
+*/
+
+.pincode-search-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    font-family: 'Arial', sans-serif;
+}
+
+.pincode-search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.pincode-input {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.pincode-input:focus {
+    border-color: black;
+}
+
+.search-button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: white;
+    color:black
+}
+
+.pincode-details {
+    background-color: #f0f1f5;
+    padding: 1rem;
+    /* border-radius: 10px; */
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* // loading css  */
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid black;
+    border-color: black transparent black transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+  
